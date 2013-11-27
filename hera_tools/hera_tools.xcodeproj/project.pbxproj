@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182034FA1845B5740091519D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182034F91845B5740091519D /* UIKit.framework */; };
+		182034FC1845B5740091519D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182034FB1845B5740091519D /* Foundation.framework */; };
+		182034FE1845B5740091519D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182034FD1845B5740091519D /* CoreGraphics.framework */; };
+		182035041845B5740091519D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182035021845B5740091519D /* InfoPlist.strings */; };
+		182035061845B5740091519D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182035051845B5740091519D /* main.m */; };
+		1820350A1845B5740091519D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182035091845B5740091519D /* AppDelegate.m */; };
+		1820350D1845B5740091519D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820350B1845B5740091519D /* MainStoryboard_iPhone.storyboard */; };
+		182035101845B5740091519D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820350E1845B5740091519D /* MainStoryboard_iPad.storyboard */; };
+		182035131845B5740091519D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182035121845B5740091519D /* ViewController.m */; };
+		1820351B1845B5740091519D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1820351A1845B5740091519D /* SenTestingKit.framework */; };
+		1820351C1845B5740091519D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182034F91845B5740091519D /* UIKit.framework */; };
+		1820351D1845B5740091519D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182034FB1845B5740091519D /* Foundation.framework */; };
+		182035251845B5750091519D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182035231845B5750091519D /* InfoPlist.strings */; };
+		182035281845B5750091519D /* hera_toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182035271845B5750091519D /* hera_toolsTests.m */; };
+		182035341845BE980091519D /* SpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182035321845BE980091519D /* SpotViewController.m */; };
+		182035351845BE980091519D /* SpotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182035331845BE980091519D /* SpotViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1820351E1845B5750091519D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182034EC1845B5730091519D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182034F41845B5740091519D;
+			remoteInfo = hera_tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182034F51845B5740091519D /* hera_tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hera_tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182034F91845B5740091519D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		182034FB1845B5740091519D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		182034FD1845B5740091519D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		182035011845B5740091519D /* hera_tools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hera_tools-Info.plist"; sourceTree = "<group>"; };
+		182035031845B5740091519D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		182035051845B5740091519D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182035071845B5740091519D /* hera_tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hera_tools-Prefix.pch"; sourceTree = "<group>"; };
+		182035081845B5740091519D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182035091845B5740091519D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1820350C1845B5740091519D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1820350F1845B5740091519D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		182035111845B5740091519D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182035121845B5740091519D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182035191845B5740091519D /* hera_toolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hera_toolsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1820351A1845B5740091519D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		182035221845B5750091519D /* hera_toolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hera_toolsTests-Info.plist"; sourceTree = "<group>"; };
+		182035241845B5750091519D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		182035261845B5750091519D /* hera_toolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hera_toolsTests.h; sourceTree = "<group>"; };
+		182035271845B5750091519D /* hera_toolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hera_toolsTests.m; sourceTree = "<group>"; };
+		182035311845BE980091519D /* SpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotViewController.h; sourceTree = "<group>"; };
+		182035321845BE980091519D /* SpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotViewController.m; sourceTree = "<group>"; };
+		182035331845BE980091519D /* SpotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpotViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182034F21845B5740091519D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182034FA1845B5740091519D /* UIKit.framework in Frameworks */,
+				182034FC1845B5740091519D /* Foundation.framework in Frameworks */,
+				182034FE1845B5740091519D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182035151845B5740091519D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820351B1845B5740091519D /* SenTestingKit.framework in Frameworks */,
+				1820351C1845B5740091519D /* UIKit.framework in Frameworks */,
+				1820351D1845B5740091519D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182034EA1845B5730091519D = {
+			isa = PBXGroup;
+			children = (
+				182034FF1845B5740091519D /* hera_tools */,
+				182035201845B5750091519D /* hera_toolsTests */,
+				182034F81845B5740091519D /* Frameworks */,
+				182034F61845B5740091519D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182034F61845B5740091519D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182034F51845B5740091519D /* hera_tools.app */,
+				182035191845B5740091519D /* hera_toolsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182034F81845B5740091519D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182034F91845B5740091519D /* UIKit.framework */,
+				182034FB1845B5740091519D /* Foundation.framework */,
+				182034FD1845B5740091519D /* CoreGraphics.framework */,
+				1820351A1845B5740091519D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		182034FF1845B5740091519D /* hera_tools */ = {
+			isa = PBXGroup;
+			children = (
+				182035081845B5740091519D /* AppDelegate.h */,
+				182035091845B5740091519D /* AppDelegate.m */,
+				1820350B1845B5740091519D /* MainStoryboard_iPhone.storyboard */,
+				1820350E1845B5740091519D /* MainStoryboard_iPad.storyboard */,
+				182035111845B5740091519D /* ViewController.h */,
+				182035121845B5740091519D /* ViewController.m */,
+				182035361845BEC90091519D /* Spot */,
+				182035001845B5740091519D /* Supporting Files */,
+			);
+			path = hera_tools;
+			sourceTree = "<group>";
+		};
+		182035001845B5740091519D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182035011845B5740091519D /* hera_tools-Info.plist */,
+				182035021845B5740091519D /* InfoPlist.strings */,
+				182035051845B5740091519D /* main.m */,
+				182035071845B5740091519D /* hera_tools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182035201845B5750091519D /* hera_toolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				182035261845B5750091519D /* hera_toolsTests.h */,
+				182035271845B5750091519D /* hera_toolsTests.m */,
+				182035211845B5750091519D /* Supporting Files */,
+			);
+			path = hera_toolsTests;
+			sourceTree = "<group>";
+		};
+		182035211845B5750091519D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182035221845B5750091519D /* hera_toolsTests-Info.plist */,
+				182035231845B5750091519D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182035361845BEC90091519D /* Spot */ = {
+			isa = PBXGroup;
+			children = (
+				182035311845BE980091519D /* SpotViewController.h */,
+				182035321845BE980091519D /* SpotViewController.m */,
+				182035331845BE980091519D /* SpotViewController.xib */,
+			);
+			name = Spot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182034F41845B5740091519D /* hera_tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1820352B1845B5750091519D /* Build configuration list for PBXNativeTarget "hera_tools" */;
+			buildPhases = (
+				182034F11845B5740091519D /* Sources */,
+				182034F21845B5740091519D /* Frameworks */,
+				182034F31845B5740091519D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hera_tools;
+			productName = hera_tools;
+			productReference = 182034F51845B5740091519D /* hera_tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182035181845B5740091519D /* hera_toolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1820352E1845B5750091519D /* Build configuration list for PBXNativeTarget "hera_toolsTests" */;
+			buildPhases = (
+				182035141845B5740091519D /* Sources */,
+				182035151845B5740091519D /* Frameworks */,
+				182035161845B5740091519D /* Resources */,
+				182035171845B5740091519D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1820351F1845B5750091519D /* PBXTargetDependency */,
+			);
+			name = hera_toolsTests;
+			productName = hera_toolsTests;
+			productReference = 182035191845B5740091519D /* hera_toolsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182034EC1845B5730091519D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 182034EF1845B5730091519D /* Build configuration list for PBXProject "hera_tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182034EA1845B5730091519D;
+			productRefGroup = 182034F61845B5740091519D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182034F41845B5740091519D /* hera_tools */,
+				182035181845B5740091519D /* hera_toolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182034F31845B5740091519D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182035041845B5740091519D /* InfoPlist.strings in Resources */,
+				1820350D1845B5740091519D /* MainStoryboard_iPhone.storyboard in Resources */,
+				182035101845B5740091519D /* MainStoryboard_iPad.storyboard in Resources */,
+				182035351845BE980091519D /* SpotViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182035161845B5740091519D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182035251845B5750091519D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		182035171845B5740091519D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182034F11845B5740091519D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182035061845B5740091519D /* main.m in Sources */,
+				1820350A1845B5740091519D /* AppDelegate.m in Sources */,
+				182035131845B5740091519D /* ViewController.m in Sources */,
+				182035341845BE980091519D /* SpotViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182035141845B5740091519D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182035281845B5750091519D /* hera_toolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1820351F1845B5750091519D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182034F41845B5740091519D /* hera_tools */;
+			targetProxy = 1820351E1845B5750091519D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182035021845B5740091519D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182035031845B5740091519D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1820350B1845B5740091519D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1820350C1845B5740091519D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1820350E1845B5740091519D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1820350F1845B5740091519D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		182035231845B5750091519D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182035241845B5750091519D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182035291845B5750091519D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1820352A1845B5750091519D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1820352C1845B5750091519D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hera_tools/hera_tools-Prefix.pch";
+				INFOPLIST_FILE = "hera_tools/hera_tools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1820352D1845B5750091519D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hera_tools/hera_tools-Prefix.pch";
+				INFOPLIST_FILE = "hera_tools/hera_tools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1820352F1845B5750091519D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hera_tools.app/hera_tools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hera_tools/hera_tools-Prefix.pch";
+				INFOPLIST_FILE = "hera_toolsTests/hera_toolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		182035301845B5750091519D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hera_tools.app/hera_tools";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hera_tools/hera_tools-Prefix.pch";
+				INFOPLIST_FILE = "hera_toolsTests/hera_toolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182034EF1845B5730091519D /* Build configuration list for PBXProject "hera_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182035291845B5750091519D /* Debug */,
+				1820352A1845B5750091519D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1820352B1845B5750091519D /* Build configuration list for PBXNativeTarget "hera_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820352C1845B5750091519D /* Debug */,
+				1820352D1845B5750091519D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1820352E1845B5750091519D /* Build configuration list for PBXNativeTarget "hera_toolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820352F1845B5750091519D /* Debug */,
+				182035301845B5750091519D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182034EC1845B5730091519D /* Project object */;
+}
